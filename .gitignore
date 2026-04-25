@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+data/raw/*
+data/processed/*
+data/chroma/*
+data/metrics/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/chroma/.gitkeep
+!data/metrics/.gitkeep
+*.pptx
+*.ppt
+.DS_Store
